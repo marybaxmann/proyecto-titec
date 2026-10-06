@@ -1,0 +1,35 @@
+# Checklist de Consistencia Visual — Front-End
+
+Fuente: `Acuerdos-Generales FRONT.pdf` (acuerdo entre los equipos front-end de Ticket-U).
+
+## 1. Lineamientos generales
+
+| # | Categoría | Punto para acordar | Valor acordado |
+|---|---|---|---|
+| 1 | Color | Color de fondo principal | `#FFFFFF` (contenido) / `#F8F9FA` (paneles internos) |
+| 2 | Color | Color de superficie / tarjetas | `#FFFFFF` con borde sutil; banner de contexto `#EEF1F8` |
+| 3 | Color | Texto primario y secundario | Primario `#2F4374` · Secundario `#6B7A9A` |
+| 4 | Color | Acento / marca (botones principales, links) | `#2F4374` (azul marino TicketAzul) |
+| 5 | Color | Colores de estado | Éxito: texto `#1A6640` / fondo `#E2F4EA` · Error: texto `#B3261E` / fondo `#FDF0F2` · Información y advertencia: texto `#2F4374` / fondo `#EEF1F8` |
+| 6 | Color | Modo claro/oscuro | Solo modo claro (fondo blanco, header azul marino) |
+| 7 | Tipografía | Familia principal | Poppins — títulos y números destacados (600–700) |
+| 8 | Tipografía | Familia secundaria | Inter — cuerpo de texto y UI general (400–600) |
+| 9 | Tipografía | Tamaños de fuente | H1 28px · H2 20px · H3 16px · Párrafo 14px · Caption 12px · Botones 14px |
+| 10 | Tipografía | Pesos de fuente | 400 regular (cuerpo) · 600 semibold (botones, labels) · 700 bold (títulos) |
+| 11 | Tipografía | Interlineado | 1.5 en párrafos · 1.2 en títulos |
+| 12 | Espaciado y estructura | Sistema de espaciado | Base 8px — escala 4 / 8 / 16 / 24 / 32 / 48 |
+| 13 | Espaciado y estructura | Ancho máximo / grid | 1200px máx., grid de 12 columnas, gutters de 24px |
+| 14 | Espaciado y estructura | Breakpoints | Móvil <640px · Tablet 641–1024px · Escritorio >1024px |
+| 15 | Componentes compartidos | Footer | Fondo azul marino `#2F4374`, texto blanco `#FFFFFF`. Padding 1.5rem 2rem, margin-top 3rem. Contenido centrado: TICKET-U © 2026, Centro de Ayuda y Términos de Servicio separados por bordes |
+| 16 | Componentes compartidos | Header | Logo a la izquierda + Inicio / Mis eventos / Promociones / Configuración / Mi cuenta; buscar / notificación / avatar a la derecha. Alto 64px, sticky |
+| 17 | Componentes compartidos | Botones | Fondo `#2F4374`, texto blanco, alto 40px, radio 8px; hover 10% más oscuro; disabled 40% opacidad |
+| 18 | Componentes compartidos | Inputs y formularios | Alto 40px, radio 8px, borde `#D8DFF0`; foco: borde `#2F4374` + halo 2px; error: borde `#B3261E` + texto de ayuda debajo |
+| 19 | Componentes compartidos | Badges / pills de estado | Activa: texto `#1A6640` / fondo `#E2F4EA` · Inactiva: texto `#6B7A9A` / fondo `#F0F0F5`. Forma pill (radio 999px) |
+| 20 | Componentes compartidos | Modales / confirmaciones | Pequeño 480px / grande 720px; overlay negro 40%; entrada fade + scale 150ms |
+| 21 | Componentes compartidos | Iconografía | Set outline (Lucide/Feather), trazo 2px, tamaño 20px |
+| 22 | Bordes, radios y sombras | Radios por elemento | 8px botones/inputs · 12px tarjetas · 999px badges (pill) |
+| 23 | Bordes, radios y sombras | Bordes | 1px sólido, color `#D8DFF0` |
+| 24 | Bordes, radios y sombras | Sombras | Tarjetas: sombra suave (8% opacidad) · Modales: sombra más marcada (15% opacidad) |
+| 25 | Accesibilidad | Contraste mínimo | 4.5:1 para texto normal (WCAG AA) |
+| 26 | Accesibilidad | Área táctil mínima (mobile) | 44×44px |
+| 27 | Accesibilidad | Foco visible con teclado | Outline 2px sólido `#2F4374`, separado 2px del elemento |
